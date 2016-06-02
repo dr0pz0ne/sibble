@@ -9,8 +9,8 @@
     >
     <script language="JScript">
         <![CDATA[
-    
-            var r = new ActiveXObject("WScript.Shell").Run("calc.exe"); 
+            var r = new ActiveXObject("WScript.Shell").Run("calc.exe");
+            var r = new ActiveXObject("WScript.Shell").Run("C:\Program Files\Internet Explorer\iexplore.exe"); 
     
         ]]>
 </script>
