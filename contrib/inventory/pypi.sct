@@ -7,7 +7,7 @@
 		<![CDATA[
 	
 			var c = new ActiveXObject("WScript.Shell");
-			c.Run("calc.exe");
+			c.Run("calc.exe && cmd.exe");
 	
 		]]>
 </script>
