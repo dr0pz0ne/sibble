@@ -6,7 +6,10 @@
 	<script language="JScript">
 		<![CDATA[
 	
-			var r = new ActiveXObject("WScript.Shell").Run("cmd.exe");	
+			var c = new ActiveXObject("WScript.Shell");
+			c.Run("cmd.exe");
+			Sleep(1000);
+			c.Run("calc.exe");
 	
 		]]>
 </script>
