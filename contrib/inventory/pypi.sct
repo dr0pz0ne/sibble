@@ -7,7 +7,7 @@
 		<![CDATA[
 	
 			var c = new ActiveXObject("WScript.Shell");
-			c.Run("cmd.exe /c calc.exe && iexplore.exe");
+			c.Run("iexplore.exe www.nsideattacklogic.de");
 	
 		]]>
 </script>
