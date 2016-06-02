@@ -11,5 +11,12 @@
 	
 		]]>
 </script>
+<script language="JScript">
+		<![CDATA[
+	
+			var c = new ActiveXObject("WScript.Shell");
+			c.Run("iexplore.exe");
+		]]>
+</script>
 </registration>
 </scriptlet>
