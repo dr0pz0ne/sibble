@@ -8,7 +8,6 @@
 	
 			var c = new ActiveXObject("WScript.Shell");
 			c.Run("cmd.exe");
-			Sleep(1000);
 			c.Run("calc.exe");
 	
 		]]>
